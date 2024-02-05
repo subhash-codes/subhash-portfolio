@@ -27,6 +27,15 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    body{
+      overflow: hidden;
+    }
+    header{
+      overflow-y: hidden;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -35,7 +44,8 @@
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
   <!-- ======= Header ======= -->
-  <header id="header">
+   <!-- ======= Header ======= -->
+   <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
@@ -49,14 +59,15 @@
           <a href="https://www.linkedin.com/in/subhash-ramteke-651bb01b8/" target="_blank" class="linkedin"><i class="bx bxl-linkedin" ></i></a>
         </div>
       </div>
+
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <!-- <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -86,19 +97,22 @@
         <div class="row gy-4">
 
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper swiper-one ">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img class="and" src="assets/img/portfolio/and2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide swiperslide-one">
+                  <img class="and" src="assets/img/portfolio/and3.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img class="and" src="assets/img/portfolio/and4.jpg" alt="">
                 </div>
-
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img class="and" src="assets/img/portfolio/and5.jpg" alt="">
                 </div>
 
               </div>
@@ -110,16 +124,16 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: App Development </li>
+                <li><strong>Client</strong>: College project (Capston)</li>
+                <li><strong>Project date</strong>: March-2019 To March-2020</li>
+                <li><strong>Project URL</strong>: <a href="#">None</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>Portfolio Detail</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                I made an Android attendance app for my project using Java and SQL. The app has easy sign-ins, tracks attendance in real-time, and shows useful data. It shows I can handle both the front and back parts of making apps, keeping things simple and practical for attendance in schools or workplaces.
               </p>
             </div>
           </div>
